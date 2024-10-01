@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+button:not(:last-of-type) {
+  margin-right: 1.4rem;
+}
+
+button:is(.increment, .decrement)::before {
+  padding-right: 0.6rem;
+}
+
+button.increment::before {
+  content: '++';
+  letter-spacing: -4px;
+  color: magenta;
+}
