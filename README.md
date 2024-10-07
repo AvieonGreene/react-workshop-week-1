@@ -13,7 +13,7 @@ navigate to your code directory.
 run
 
 ```sh
-  git clone https://github.com/codelouisville/react-workshop-week-1
+  git clone https://github.com/CodeYouOrg/react-workshop-week-1
 ```
 
 second, we'll install the project's dependencies.
