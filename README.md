@@ -40,5 +40,5 @@ run
 npm run dev
 ```
 
-this will start a server at [localhost:5173](localhost:5173).
+this will start a server at [localhost:5173](http://localhost:5173).
 we can start making changes and they will reflect in our browser immediately
