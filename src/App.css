@@ -22,3 +22,13 @@ button.increment::before {
   letter-spacing: -4px;
   color: magenta;
 }
+
+button:is(.subtract, .decrement)::before {
+  padding-right: 0.6rem;
+}
+
+button.subtract::before {
+  content: '---';
+  letter-spacing: -4px;
+  color: magenta;
+}
